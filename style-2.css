@@ -1,9 +1,19 @@
 @font-face {
     font-family: "TiredOfCourier";
-    src: url("../typeface/TiredOfCourier_Plain.ttf") format("ttf");
-    src: URL("../typeface/TiredOfCourier_Italic.ttf") format("ttf");
-    src: URL("../typeface/TiredOfCourier_Bold.ttf") format("ttf");
-  }
+    src: url("typeface/TiredOfCourier_Plain.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "TiredOfCourier";
+    src: url("typeface/TiredOfCourier_Italic.ttf") format("truetype");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "TiredOfCourier";
+    src: url("typeface/TiredOfCourier_Bold.ttf") format("truetype");
+    font-weight: bold;
+}
 
 h2 {
     font-weight: normal;
