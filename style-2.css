@@ -1,8 +1,8 @@
 @font-face {
     font-family: "TiredOfCourier";
-    src: url("typeface/TiredOfCourier_Plain.ttf") format("ttf");
-    src: url("typeface/TiredOfCourier_Italic.ttf") format("ttf");
-    src: url("typeface/TiredOfCourier_Bold.ttf") format("ttf");
+    src: url("../typeface/TiredOfCourier_Plain.ttf") format("ttf");
+    src: URL("../typeface/TiredOfCourier_Italic.ttf") format("ttf");
+    src: URL("../typeface/TiredOfCourier_Bold.ttf") format("ttf");
   }
 
 h2 {
