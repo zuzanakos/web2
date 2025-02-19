@@ -2,9 +2,10 @@
     font-family: "TiredOfCourier";
     src: url("typeface/TiredOfCourier_Plain.ttf") format("ttf");
     src: url("typeface/TiredOfCourier_Italic.ttf") format("ttf");
+    src: url("typeface/TiredOfCourier_Bold.ttf") format("ttf");
   }
 
-h1 {
+h2 {
     font-weight: normal;
     font-style: italic;
     font-size: 1.75rem;
@@ -19,11 +20,16 @@ p {
 }
 
 ul.main {
+    list-style: none;
+    width: 80%;
     text-align: center;
     margin: 0 auto;
     padding: 0;
-    padding-top: 12rem;
-    padding-bottom: 700px;
+    padding-top: 3rem;
+}
+
+div {
+    height: 500px;
 }
 
 li {
@@ -33,19 +39,20 @@ li {
     padding-bottom: 4.5rem;
 }
 
-h2 {
+nav p {
     font-family: "TiredOfCourier";
-    font-style: italic;
-    color: greenyellow;
-    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: crimson;
+    font-size: 2.5rem;
     padding-bottom: 0;
     margin: 0;
 }
 
 nav {
     position: fixed;
-    top: 0;
-    display: inline;
+    bottom: 0;
+    margin: 0 auto;
     padding-bottom: 0;
 }
 
@@ -69,5 +76,18 @@ nav {
 
 li img {
     width: 100px;
-    border: 1px solid blue;
+    border: 1px solid white;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: black;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: yellow;
 }
