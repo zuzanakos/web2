@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "TiredOfCourier";
+    src: url("typeface/TiredOfCourier_Plain.ttf") format("ttf");
+    src: url("typeface/TiredOfCourier_Italic.ttf") format("ttf");
+  }
+
+h1 {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 1.75rem;
+}
+
+body {
+    background-color: #CCCCCC;
+}
+
+p {
+    font-family: "TiredOfCourier";
+}
+
+ul.main {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 12rem;
+    padding-bottom: 700px;
+}
+
+li {
+    margin-bottom: 2rem;
+    margin: 0;
+    font-family: "TiredOfCourier";
+    padding-bottom: 4.5rem;
+}
+
+h2 {
+    font-family: "TiredOfCourier";
+    font-style: italic;
+    color: greenyellow;
+    font-size: 3.5rem;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    display: inline;
+    padding-bottom: 0;
+}
+
+.ascii {
+    font-family: 'Courier New', Courier, monospace;
+    width: 700px;
+}
+
+.sticky {
+    position: sticky;
+    top: 0.5rem;
+}
+
+.first {
+    color: red;
+}
+
+.second {
+    color: blue;
+}
+
+li img {
+    width: 100px;
+    border: 1px solid blue;
+}
